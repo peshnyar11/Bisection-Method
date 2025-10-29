@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def f(x):
-    """Function: f(x) = 0.5*e^x - 5x + 2"""
+    """Function: f(x) = 0.5*e^x - 4x + 9"""
     return 0.5 * np.exp(x) - 5 * x + 2
 
 def bisection_method(a, b, tolerance=0.00001, max_iterations=100):
